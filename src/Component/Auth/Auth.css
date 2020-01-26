@@ -1,0 +1,7 @@
+.colorBlue{
+    background-color: aliceblue;
+}
+
+.MuiButton-contained {
+   background-color: aliceblue !important;
+}
