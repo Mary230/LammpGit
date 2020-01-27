@@ -15,7 +15,7 @@ import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 function DisplayRepos(props) {
     const {data} = props;
     return (<div className="repoCard">
-        <a href={"/"+login} className="yellowText"><KeyboardBackspaceIcon/></a>
+        <a href={"/"+data.repository.owner.login} className="yellowText"><KeyboardBackspaceIcon/></a>
             <div className="RepositoryCard">
             <Grid container direction="row" justify="space-between" alignItems="center">
             <   Grid item xs={6}>
