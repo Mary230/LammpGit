@@ -64,7 +64,6 @@ const LoginForm = () => {
                         margin="normal"
                         required
                         fullWidth
-                        
                         name="password"
                         label="Enter your GitHub token"
                         type="password"
