@@ -50,7 +50,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Mary230.github.io/LammpGit",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "homepage": "https://intense-wildwood-95920.herokuapp.com/"
+
 }
